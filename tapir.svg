@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+
+<rect width="1200" height="700" fill="#d7ead8"/>
+<path d="M0 560 Q250 460 500 560 T1200 520 V700 H0Z" fill="#2d6848"/>
+<path d="M330 480 C330 330 470 260 640 290 C770 315 820 420 760 500 C690 565 420 570 330 480Z" fill="#3c4039"/>
+<path d="M720 360 Q860 300 900 390 Q850 450 750 445Z" fill="#424640"/>
+<ellipse cx="895" cy="390" rx="60" ry="75" fill="#424640"/>
+<circle cx="900" cy="370" r="8" fill="#111"/>
+<path d="M940 410 Q1000 430 950 455" stroke="#424640" stroke-width="25" fill="none" stroke-linecap="round"/>
+<path d="M420 470 L390 590 M650 470 L680 590" stroke="#252824" stroke-width="30"/>
+<text x="50" y="90" font-family="Arial" font-size="42" font-weight="700" fill="#174b37">CENTRAL AMERICAN TAPIR</text>
+
+</svg>

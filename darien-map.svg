@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+
+<rect width="1200" height="700" fill="#eaf4ee"/>
+<path d="M105 330 C170 260 250 265 310 300 C365 332 430 290 500 305 C575 320 615 360 690 350
+C760 340 815 285 885 295 C950 305 1010 355 1080 390 L1010 450 C920 435 850 450 770 465
+C670 480 610 455 535 455 C450 455 380 490 305 470 C235 450 180 420 120 400Z"
+fill="#7ebf7a" stroke="#245f47" stroke-width="8"/>
+<path d="M900 285 C1010 250 1120 300 1160 370 L1100 470 L1010 450 L1080 390Z" fill="#b9c7bc" opacity=".8"/>
+<path d="M760 355 C820 330 900 330 955 365 L920 445 C855 450 800 440 750 425Z" fill="#1d7a55" stroke="#0c4a38" stroke-width="5"/>
+<path d="M948 365 L1010 350" stroke="#d9b44a" stroke-width="7" stroke-dasharray="14 10"/>
+<circle cx="820" cy="390" r="14" fill="#e0a53a"/>
+<text x="770" y="520" font-family="Arial" font-size="30" font-weight="700" fill="#174b37">DARIÉN</text>
+<text x="70" y="610" font-family="Arial" font-size="26" fill="#28594a">Panama • Pacific coast • Border with Colombia</text>
+
+</svg>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Darién National Park | Discover</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="index.html"><img src="images/logo.svg" alt="Darién logo"><span>DARIÉN</span></a>
+  <nav>
+    <a class="active" href="index.html">Discover</a>
+    <a href="quiz.html">Challenge</a>
+  </nav>
+  <button class="lang" onclick="toggleLang()">ES / EN</button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-overlay">
+    <p class="eyebrow" data-en="PANAMA'S WILD HEART" data-es="EL CORAZÓN SALVAJE DE PANAMÁ">PANAMA'S WILD HEART</p>
+    <h1 data-en="DARIÉN<br>NATIONAL PARK" data-es="PARQUE NACIONAL<br>DEL DARIÉN">DARIÉN<br>NATIONAL PARK</h1>
+    <p class="lead" data-en="A living bridge between Central America and South America." data-es="Un puente natural vivo entre Centroamérica y Sudamérica.">A living bridge between Central America and South America.</p>
+    <div class="actions"><a class="btn primary" href="#explore" data-en="EXPLORE THE PARK ↓" data-es="EXPLORAR EL PARQUE ↓">EXPLORE THE PARK ↓</a>
+    <a class="btn ghost" href="quiz.html" data-en="PLAY THE CHALLENGE →" data-es="JUGAR EL RETO →">PLAY THE CHALLENGE →</a></div>
+  </div>
+</section>
+
+<section id="explore" class="intro section">
+  <div class="section-tag">01 — THE PLACE</div>
+  <div class="split">
+    <div><h2 data-en="A forest unlike any other." data-es="Un bosque como ningún otro.">A forest unlike any other.</h2>
+    <p data-en="Darién National Park is Panama's largest protected area. Its landscapes include beaches, rocky coasts, mangroves, wetlands, rivers and tropical forests from lowlands to mountains."
+       data-es="El Parque Nacional Darién es el área protegida más grande de Panamá. Sus paisajes incluyen playas, costas rocosas, manglares, humedales, ríos y bosques tropicales desde las tierras bajas hasta las montañas.">
+       Darién National Park is Panama's largest protected area. Its landscapes include beaches, rocky coasts, mangroves, wetlands, rivers and tropical forests from lowlands to mountains.</p>
+    <div class="stats"><div><strong>1980</strong><span data-en="Created" data-es="Creado">Created</span></div><div><strong>1981</strong><span data-en="UNESCO World Heritage" data-es="Patrimonio Mundial UNESCO">UNESCO World Heritage</span></div><div><strong>~579,000</strong><span data-en="hectares" data-es="hectáreas">hectares</span></div></div>
+    </div>
+    <div class="map-card"><img src="images/darien-map.svg" alt="Stylized map of Darién in Panama"><div class="map-caption" data-en="Darién Province • southeastern Panama" data-es="Provincia de Darién • sureste de Panamá">Darién Province • southeastern Panama</div></div>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="section-tag light">02 — WILDLIFE</div>
+  <h2 class="center" data-en="Meet the residents." data-es="Conoce a los habitantes.">Meet the residents.</h2>
+  <p class="center muted" data-en="Tap a card to reveal a quick fact." data-es="Toca una tarjeta para descubrir un dato.">Tap a card to reveal a quick fact.</p>
+  <div class="animals">
+    <button class="animal-card" onclick="showAnimal('eagle')"><img src="images/harpy-eagle.svg"><span>🦅 Harpy Eagle</span></button>
+    <button class="animal-card" onclick="showAnimal('jaguar')"><img src="images/jaguar.svg"><span>🐆 Jaguar</span></button>
+    <button class="animal-card" onclick="showAnimal('tapir')"><img src="images/tapir.svg"><span>🦣 Tapir</span></button>
+    <button class="animal-card" onclick="showAnimal('macaw')"><img src="images/macaw.svg"><span>🦜 Great Green Macaw</span></button>
+  </div>
+  <div id="animalInfo" class="fact-box">Choose an animal ↑</div>
+</section>
+
+<section class="section habitats">
+  <div class="section-tag">03 — ECOSYSTEMS</div>
+  <h2 data-en="Five worlds in one park." data-es="Cinco mundos en un solo parque.">Five worlds in one park.</h2>
+  <div class="habitat-tabs">
+    <button class="tab active" onclick="habitat(0)">🌊 Coast</button>
+    <button class="tab" onclick="habitat(1)">🌱 Mangroves</button>
+    <button class="tab" onclick="habitat(2)">💧 Wetlands</button>
+    <button class="tab" onclick="habitat(3)">🌴 Rainforest</button>
+    <button class="tab" onclick="habitat(4)">⛰️ Mountains</button>
+  </div>
+  <div id="habitatText" class="habitat-panel"></div>
+</section>
+
+<section class="section callout">
+  <div><div class="section-tag">04 — WHY IT MATTERS</div>
+  <h2 data-en="Protecting Darién protects a connection." data-es="Proteger Darién protege una conexión.">Protecting Darién protects a connection.</h2>
+  <p data-en="Its forests connect ecosystems and support extraordinary biodiversity. UNESCO recognizes the park for its natural value, while Panama continues strengthening its protection."
+     data-es="Sus bosques conectan ecosistemas y sostienen una biodiversidad extraordinaria. UNESCO reconoce el valor natural del parque y Panamá continúa fortaleciendo su protección.">Its forests connect ecosystems and support extraordinary biodiversity. UNESCO recognizes the park for its natural value, while Panama continues strengthening its protection.</p>
+  <a class="btn primary" href="quiz.html" data-en="TEST YOUR KNOWLEDGE →" data-es="PON A PRUEBA TUS CONOCIMIENTOS →">TEST YOUR KNOWLEDGE →</a></div>
+</section>
+</main>
+
+<footer><span>DARIÉN NATIONAL PARK — CLASSROOM MUSEUM</span><span>Sources: UNESCO World Heritage Centre • MiAMBIENTE Panama</span></footer>
+<script src="script.js"></script>
+</body>
+</html>

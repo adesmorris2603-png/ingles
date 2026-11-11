@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Darién Challenge | Classroom Museum</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="challenge-page">
+<header class="nav">
+  <a class="brand" href="index.html"><img src="images/logo.svg" alt="Darién logo"><span>DARIÉN</span></a>
+  <nav><a href="index.html">Discover</a><a class="active" href="quiz.html">Challenge</a></nav>
+  <button class="lang" onclick="toggleLang()">ES / EN</button>
+</header>
+
+<main class="challenge">
+<section class="challenge-hero">
+  <div class="section-tag light">DARIÉN FIELD TEST</div>
+  <h1 data-en="HOW WELL DO YOU<br>KNOW THE PARK?" data-es="¿CUÁNTO CONOCES<br>EL PARQUE?">HOW WELL DO YOU<br>KNOW THE PARK?</h1>
+  <p data-en="Five quick challenges. One final score." data-es="Cinco retos rápidos. Un puntaje final.">Five quick challenges. One final score.</p>
+  <button class="btn primary" onclick="startQuiz()" data-en="START THE CHALLENGE →" data-es="COMENZAR EL RETO →">START THE CHALLENGE →</button>
+</section>
+
+<section id="quizArea" class="quiz-wrap hidden">
+  <div class="progress"><div id="progressBar"></div></div>
+  <div class="quiz-card">
+    <div id="questionNumber">QUESTION 1 / 5</div>
+    <h2 id="question"></h2>
+    <div id="answers" class="answers"></div>
+    <div id="feedback"></div>
+    <button id="nextBtn" class="btn primary hidden" onclick="nextQuestion()">NEXT →</button>
+  </div>
+</section>
+
+<section id="result" class="result hidden">
+  <div class="trophy">🌿</div>
+  <div class="section-tag">MISSION COMPLETE</div>
+  <h2 id="scoreTitle"></h2>
+  <p id="scoreText"></p>
+  <div class="result-actions"><a class="btn primary" href="index.html">BACK TO DISCOVER</a><button class="btn ghost darkbtn" onclick="startQuiz()">PLAY AGAIN</button></div>
+</section>
+</main>
+<footer><span>DARIÉN NATIONAL PARK — CLASSROOM MUSEUM</span><span>Offline interactive quiz</span></footer>
+<script src="script.js"></script>
+</body>
+</html>

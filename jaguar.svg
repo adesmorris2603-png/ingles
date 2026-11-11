@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+
+<rect width="1200" height="700" fill="#183b2d"/>
+<circle cx="930" cy="125" r="85" fill="#e3c45d" opacity=".75"/>
+<path d="M0 580 Q250 470 520 570 T1200 540 V700 H0Z" fill="#0c241c"/>
+<path d="M320 480 C310 310 430 180 600 190 C780 180 900 320 850 500 C780 600 420 600 320 480Z" fill="#d89b3b"/>
+<circle cx="455" cy="320" r="80" fill="#e3b95a"/><circle cx="745" cy="320" r="80" fill="#e3b95a"/>
+<circle cx="475" cy="320" r="12" fill="#111"/><circle cx="725" cy="320" r="12" fill="#111"/>
+<path d="M560 410 Q600 380 640 410 Q620 470 600 480 Q580 470 560 410Z" fill="#f0d6a1"/>
+<circle cx="505" cy="405" r="18" fill="#5b321b"/><circle cx="695" cy="405" r="18" fill="#5b321b"/>
+<circle cx="430" cy="390" r="12" fill="#5b321b"/><circle cx="770" cy="390" r="12" fill="#5b321b"/>
+<circle cx="520" cy="460" r="10" fill="#5b321b"/><circle cx="680" cy="460" r="10" fill="#5b321b"/>
+<text x="50" y="90" font-family="Arial" font-size="42" font-weight="700" fill="#f5e6bd">JAGUAR</text>
+
+</svg>

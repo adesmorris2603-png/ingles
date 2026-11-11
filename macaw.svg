@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+
+<rect width="1200" height="700" fill="#e6f0df"/>
+<path d="M0 610 Q300 500 620 600 T1200 560 V700 H0Z" fill="#2b6846"/>
+<path d="M430 500 C390 360 500 220 650 230 C800 250 850 390 770 520 C680 600 500 580 430 500Z" fill="#1e6fb0"/>
+<circle cx="610" cy="310" r="70" fill="#e6c43c"/>
+<path d="M590 270 Q690 220 735 300 L665 350Z" fill="#d93b2e"/>
+<circle cx="640" cy="300" r="10" fill="#111"/>
+<path d="M675 320 L745 345 L680 365Z" fill="#252525"/>
+<path d="M470 400 L290 300 L430 470Z" fill="#d93b2e"/>
+<path d="M750 410 L920 310 L790 480Z" fill="#1e6fb0"/>
+<text x="50" y="90" font-family="Arial" font-size="42" font-weight="700" fill="#174b37">GREAT GREEN MACAW</text>
+
+</svg>
